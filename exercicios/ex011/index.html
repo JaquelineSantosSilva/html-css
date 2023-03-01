@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens Dinamica/ Flexiveis</h1>
+    <p>Tente abrir esse site em varios dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+<picture>
+    <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png"> <!--Lembrar de mudar p parametro media="(mix- width" para (max-width)-->
+    <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+    <img src="imagens/foto-g.png" alt="Imagem Flexivel">
+</picture>
+<h1>Reproduzindo Audios</h1>
+<p>Vamos aprender a reproduzir auidios em HTML5</p>
+<audio preload="metadata" controls=" 
+" autoplay loop> <!--esse atributo preload aceita 3 valores metada, auto e None -->
+    <source src="midia/rock-audio.mp3" type="audio/mpeg" > <!-- Épossivel colocar nas tag source varios type de midias sendo audio/mpeg, audio/ogg audio/wav-->
+</audio>
+<p><p>Se o navegador nao carregar nenhuma das midias podemos disponibilizar para doawload <a href="midia/rock-audio.mp3">clique aqui!</a></p>
+</body>
+</html>

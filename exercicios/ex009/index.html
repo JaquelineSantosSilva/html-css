@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+</head>
+<body>
+    <h1>Trabalhando com lista</h1>
+    <h2>Listas Ordenadas</h2>
+    <ol type="1" start="4"> <!--Isso significa que é um lista ordenada com a (tag ol) que pode ser do  tipo numerico começando a partir do numero 4 devido ao parametro (START) que é opicional. Já o Parametro (TYPE) pode ser do tipo ( 1, A, a, I, i) que indica se sera uma lista numerica, alfabeto, ou em numeros romanos.
+    -->
+        <li>Acordar</li>
+        <li>Ligar para o João</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+        <li>Ir para faculdade</li>
+        <li>Almoçar</li>
+        <li>Ir para o trabalho</li>
+        <li>Voltar para casa</li>
+        <li>Jantar</li>
+        <li>Dormir</li>
+    </ol>
+        <h2>Lista Não Ordenadas</h2>
+        <ul type="square"> <!--disc, circle, square-->
+            <li>Pão</li>
+            <li>Leite</li>
+            <li>Tomate</li>
+            <li>Manteiga</li>
+            <li>Arroz</li>
+            <li>Feijão</li>
+        </ul>
+        <h2>Juntando Lista</h2>
+        <h3>Meus Desenhos Favoritos</h3>
+    <ol>
+        <li>Antigas</li>
+        <ol type="a">
+            <li>Scooby Doo</li>
+            <li>As Tres Espiãs Demais</li>
+            <li>X Mem Evolution</li>
+            <li>Os Padrinhos Magicos</li>
+        </ol>
+        <li>Novas</li>
+        <ol type="a" start="5"> <!--Chamamos de aninhamento um lista dentro de outr lista. O prametro Start so entende contagem de forma numerica mesmo sendo letras alfabetica devemos contar como numero.-->
+            <li>Naruto</li>
+            <li>Lady Bug</li>
+            <li>Boku noriro</li>
+        </ol>
+    </ol>
+    <h2>Minhas frutas Favoritas</h2>
+    <ol>
+        <li>Manga</li>
+        <ul type="square">
+            <li>Manguinha</li>
+            <ul type="circle">
+                <li>Manga</li>
+                <li>Mango</li>
+            </ul>
+            <li>Mangona</li>
+        </ul>
+        <li>Melancia</li>
+        <ul type="square">
+            <li>Melanciinha</li>
+            <li>Melanciona</li>
+        </ul>
+        <li>Jabuticaba</li>
+        <ul type="square">
+            <li>Jabuticabinha</li>
+            <li>Jabuticabona</li>
+        </ul>
+    </ol>
+    <H2>Lista de Definições</H2>
+    <dl>
+        <dt>Hemograma</dt>
+        <dd>Exame das celulas vermelhas, brancas e plaquetas.</dd>
+        <dt>Glicose</dt>
+        <dd>Exame solicitado para medir a glicose de uma pessoa em Jejum.</dd>
+        <dt>TGO / TGP</dt>
+        <dd> São marcadores hepaticos podendo indicar alguma lesão no figado.
+            
+        </dd>
+    </dl>
+</body>
+</html>

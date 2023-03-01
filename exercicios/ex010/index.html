@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com Links</title>
+</head>
+<body>
+    <h1>Usando Links externos</h1>
+    <p>Voce pode acessar o conteudo do <a href="https://github.com/gustavoguanabara/html-css/blob/master/aulas-pdf/10%20-%20Liga%C3%A7%C3%B5es%20em%20toda%20parte.pdf" target="_blank" rel="external">repositorio publico no github</a></p> <!--O parametro TARGET: Especifica se esse link vai abrir na pagina atual ou em uma nova pagina em branco!  O parametro  REL: Me permite especificar se esse link é externo, interno! O alvo é onde a pagina vai abrir.-->
+    <p>Voce tambem pode acessar o <a href="https://www.youtube.com/watch?v=LeLnlT-ZKw8">canal gratuito do Guanabara  no youtube</a></p>
+    <h1>Usando Links Internos</h1>
+    <p>Essa é a primeiora pagina do site, se voce quiser pode acessar tambem a minha <a href="pa002.html" rel="next" target="_self">Ssegunda pagina</a></p> <!--Para funcionar esse link interno precisa estar na mesma pasta que a primeira pagina. -->
+    <p>Voce tambem pode acessar a <a href="noticias/pa003.html" rel="next"    target="_self">terceira pagina de noticias</a> do meu ite</p>
+
+    <h1>Links para Dowload</h1>
+    <p>Voce pode acessar nossa lista abaixo,  e fazer o dowload do aquivo da aula do capitulo 10</p>
+    <ul>
+        <li> <a href="livro/capitulo 10 html.pdf" download="capitulo 10 html"type="application/pdf">Capitulo 10 em pdf</a>
+        </li>
+        <li> <a href="livro/capitulo 10 html.zip" download="capitulo 10 html"type="application/zip">Capitulo 10 zip</a></li> <!--Nao necessariamente em pdf ja vai ser feito o dowload automatico-->
+    </ul>
+</body>
+</html>

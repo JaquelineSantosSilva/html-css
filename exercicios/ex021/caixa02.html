@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+       body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: khaki;
+        margin: 0px;
+       } 
+       header {
+        background-color: darkgoldenrod;
+        padding: 10px;
+        margin: 10px;
+       }
+       h1 {
+        box-shadow: inset 2px 1px 14px 6px  rgba(14, 13, 13, 0.486);
+       }
+       nav {
+        background-color:  rgb(228, 233, 159);
+        box-shadow: 5px 3px 7px rgba(59, 59, 18, 0.644);
+       }
+       nav > a {
+        text-decoration: none;
+        color: black;
+        font-weight: bolder;
+        margin-right: 30px;
+       }
+       nav > a:hover {
+        text-decoration: underline;
+       }
+       main {
+        background-color: goldenrod;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 20px;
+       }
+       article {
+        background-color: rgb(228, 233, 159);
+        padding: 5px;
+       }
+       article > aside {
+        background-color: khaki;
+        font-weight: bolder;
+       }
+       footer {
+        background-color: rgb(209, 202, 136);
+        color: black;
+        font-weight: bold;
+        text-align: center;
+        padding: 5px;
+        margin: 0px;
+       }
+       footer > p {
+        margin: 0px;
+       }
+       div#bola {
+        height: 100px;
+        width: 100px;
+        margin: 10px;
+        background-color: crimson;
+        border-radius: 50px;
+       }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+<section id="assuntos">
+    Vida Saudavel Como emagrecer Dicas de saude
+
+</section>
+<section id=" noticias">
+    <article>
+        <h2>Noticias sobre o Calor que esta fazendo em Joinville.</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus nulla tenetur assumenda doloribus harum, eos ad accusamus fugit pariatur aspernatur? Unde eius suscipit sequi dicta nihil! Quod officiis facere praesentium?
+            <aside>
+                <p>Texto escrito pela Jaqueline</p>
+            </aside>
+        </p>
+    </article>
+
+</section>
+    </main>
+    <footer>
+        <p>Desenhevolvido pela Jaqueline</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
